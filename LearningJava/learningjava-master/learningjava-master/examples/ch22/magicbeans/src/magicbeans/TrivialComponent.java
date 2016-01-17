@@ -1,7 +1,6 @@
 package magicbeans;
 
-import javax.swing.*;
-import java.awt.Graphics;
+import java.awt.*;
 
 public class TrivialComponent extends JComponent {
 

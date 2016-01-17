@@ -1,7 +1,6 @@
-import java.net.URL;
-import javax.swing.*;
 import javax.media.*;
-import java.awt.Component;
+import java.awt.*;
+import java.net.URL;
 
 public class MediaPlayer 
 {
