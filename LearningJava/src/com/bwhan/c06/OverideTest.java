@@ -23,6 +23,7 @@ class B {
 
 class D extends B{
 	int i = 2;
+	int j = 5;
 	void prtd(){
 		System.out.println("derived class func read i: " + i);
 	}
@@ -43,6 +44,7 @@ public class OverideTest {
 		d.prtd();
 
 		B bb = new D();
+		//System.out.println(bb.j);
 		System.out.println("read i of derived class with basic class handle: "+bb.i);
 
 		B.func();
