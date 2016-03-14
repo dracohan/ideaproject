@@ -10,13 +10,10 @@ package c04;
  */
 
 class Base{
-
 }
 
 class Derived extends Base {
-
 }
-
 
 public class InstanceOf {
 	public static void main(String[] args) {
