@@ -4,9 +4,12 @@ package self;
  * Created by Jimmy on 2015/4/13.
  */
 class base{
+	base(){
+		System.out.println("const");
+	}
     int i = 0;
     private int j = 1;
-    void prt() {System.out.println("From base: " + i );}
+    private void prt() {System.out.println("From base: " + i );}
    /* base printEnumeration(){return 1;};*/
 
 }
@@ -17,9 +20,9 @@ public class inherit extends base{
     inherit print() {return this;}
     int i = 1;
     void prt() {
-        System.out.println("i From base: " + super.i );
-        System.out.println("i From inherit: " + i );
-    }
+		System.out.println("i From base: " + super.i );
+		System.out.println("i From inherit: " + i );
+	}
 
     void printclass(base b){
         ;

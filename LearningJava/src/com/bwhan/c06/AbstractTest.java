@@ -1,7 +1,5 @@
 package c06;
 
-import java.util.Objects;
-
 /**
  * @project: LearningJava
  * @filename: AbstractTest.java
@@ -14,6 +12,19 @@ import java.util.Objects;
 
 abstract class InitialValue{
 	abstract  void prt();
+	//interface could have primary value
+	int abc;
+}
+
+interface abc{
+	int abc = 10;
+	//interface could have class value
+	extendsclass itv = new extendsclass();
+}
+
+interface abcd extends abc{
+	//interface primary value could be overrided
+	int abc = 11;
 }
 
 class extendsclass extends InitialValue{
@@ -42,7 +53,7 @@ public class AbstractTest {
 		//2, OK, myc is Object
 		objArr[0] = new myc();
 
-		objArr = strArr;
+		//objArr = strArr;
 		//ArrayStoreEception in array alias, compiler cant detect the type mismatch
 		objArr[1] = new myc();
 
