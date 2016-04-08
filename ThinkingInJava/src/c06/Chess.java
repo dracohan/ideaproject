@@ -6,13 +6,13 @@ package c06;
 //: Chess.java
 // Inheritance, constructors and arguments
 class Game {
-    Game() {
+    Game(int i) {
         System.out.println("Game constructor");
     }
 }
 class BoardGame extends Game {
     BoardGame(int i) {
-        //super(i);
+        super(i);
         System.out.println("BoardGame constructor");
     }
 }

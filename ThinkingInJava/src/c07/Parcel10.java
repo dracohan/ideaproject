@@ -18,7 +18,7 @@ interface Destination {
 public class Parcel10 {
     private static class PContents
             extends Contents {
-        static private int i = 11;
+        private int i = 11;
         public int value() { return i; }
     }
     protected static class PDestination

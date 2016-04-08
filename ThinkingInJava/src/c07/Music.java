@@ -34,13 +34,5 @@ public class Music {
     public static void main(String[] args) {
         Wind flute = new Wind();
         tune(flute); // Upcasting
-	    //i.j = 2;
-	    System.out.println(i.j);
     }
 } ///:~
-
-interface i {
-	int i = 0;
-	int j = 1;
-}
-
