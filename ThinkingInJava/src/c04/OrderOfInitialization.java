@@ -13,10 +13,9 @@ class Tag {
     }
 }
 class Card {
+
     Tag t1 = new Tag(1); // Before constructor
-    {
-        System.out.println("initilize statement");
-    }
+
     Card() {
 // Indicate we're in the constructor:
         System.out.println("Card()");
@@ -27,6 +26,10 @@ class Card {
         System.out.println("f()");
     }
     Tag t3 = new Tag(3); // At end
+	static {
+		System.out.println("initilize statement");
+	}
+	static Tag t4 = new Tag(4); // After constructor
 
 }
 public class OrderOfInitialization {

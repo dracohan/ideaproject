@@ -12,12 +12,13 @@ class Cup {
     }
 }
 class Cups {
-    static Cup c1;
-    static Cup c2;
-    static {
-        c1 = new Cup(1);
-        c2 = new Cup(2);
-    }
+    static Cup c1 = new Cup(3);
+	static {
+		c1 = new Cup(1);
+		c2 = new Cup(2);
+	}
+    static Cup c2 = new Cup(4);
+
     Cups() {
         System.out.println("Cups()");
 
@@ -26,7 +27,7 @@ class Cups {
 public class ExplicitStatic {
     public static void main(String[] args) {
         System.out.println("Inside main()");
-        //Cups.c1.f(99); // (1)
+        Cups.c1.f(99); // (1)
     }
     static Cups x = new Cups(); // (2)
     static Cups y = new Cups(); // (2)*/

@@ -7,6 +7,8 @@ package c06;
 // "Blank" final data members
 class Poppet { }
 class BlankFinal {
+	static int m;
+	static int n = m;
     final int i = 0; // Initialized final
     final int j; // Blank final
     final Poppet p; // Blank final handle

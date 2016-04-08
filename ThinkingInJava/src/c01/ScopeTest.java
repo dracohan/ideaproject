@@ -14,8 +14,11 @@ public class ScopeTest {
         int x = 1;
         {
             //int x = 2;
+	        x = 3;
         }
-        //System.out.println(Boolean.SIZE);
+
+	    System.out.println("x: " + x);
+		//System.out.println(Boolean.SIZE);
         System.out.println(Character.BYTES);
         System.out.println(Integer.BYTES);
         System.out.println(Short.BYTES);
