@@ -1,4 +1,5 @@
 package self;
+
 /**
  * @project: ThinkingInJava
  * @filename: MyOuterClassDemo.java
@@ -25,6 +26,7 @@ public class MyOuterClassDemo {
 		inner.seeOuter();
 	} //close Top level class method
 	public static void main(String[] args){
+
 		MyOuterClassDemo outer = new MyOuterClassDemo();
 		outer.doThings();
 	}
