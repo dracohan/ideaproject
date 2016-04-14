@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09f88afa-f04b-4db4-bd0f-fe80feaf508e" name="Default" comment="update LearnJava @home 20160315">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../oschina/src/mianjing/PrimitiveTypeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../oschina/src/mianjing/switchTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../oschina/src/mianjing/tencent.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinkingInJava/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ThinkingInJava/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinkingInJava/src/c09/Rethrowing.java" afterPath="$PROJECT_DIR$/../ThinkingInJava/src/c09/Rethrowing.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinkingInJava/src/self/MyOuterClassDemo.java" afterPath="$PROJECT_DIR$/../ThinkingInJava/src/self/MyOuterClassDemo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oschina/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../oschina/.idea/workspace.xml" />
     </list>
     <ignored path="LearningJava.iws" />
@@ -1069,7 +1063,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
