@@ -32,13 +32,27 @@ class A{
 }
 
 class B extends A{
+	private int z;
 	public B(int i, int j, int k){
 		super(i, j , k);
+		z=4;
+	}
+	public void getZZ(){
+		System.out.println("z:" + z);
+	}
+	public B(A b){
+		//class method could access protected field
+		super(b.x, b.y, 0);
+		System.out.println(y);
 	}
 }
 public class c3_p124access {
 	public static void main(String[] args) {
-		B b = new B(1,2,3);
-		System.out.println(b.y);
+		B b1 = new B(1,2,3);
+		//B b2 = new B(b1);
+		//object could access protected field
+		System.out.println(b1.y);
+		b1.getZZ();
+		//System.out.println(b2.y);
 	}
 }
