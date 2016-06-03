@@ -11,16 +11,16 @@ public class RemoteLoader {
 		GarageDoor garageDoor = new GarageDoor("Main house");
 		Stereo stereo = new Stereo("Living Room");
 
-		remoteControl.setCommand(0, livingRoomLight::on, livingRoomLight::off);
-		remoteControl.setCommand(1, kitchenLight::on, kitchenLight::off);
-		remoteControl.setCommand(2, ceilingFan::high, ceilingFan::off);
+//		remoteControl.setCommand(0, livingRoomLight::on, livingRoomLight::off);
+//		remoteControl.setCommand(1, kitchenLight::on, kitchenLight::off);
+//		remoteControl.setCommand(2, ceilingFan::high, ceilingFan::off);
 		
-		Command stereoOnWithCD = () -> { 
+/*		Command stereoOnWithCD = () -> {
 			stereo.on(); stereo.setCD(); stereo.setVolume(11);
 		};
 		remoteControl.setCommand(3, stereoOnWithCD, stereo::off);
 		remoteControl.setCommand(4, garageDoor::up, garageDoor::down);
-  
+  */
 		System.out.println(remoteControl);
  
 		remoteControl.onButtonWasPushed(0);
