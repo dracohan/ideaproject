@@ -1,4 +1,4 @@
-package mianjing;
+package mianjing.d20160703;
 /**
  * @project: oschina
  * @filename: IncDecThread.java
