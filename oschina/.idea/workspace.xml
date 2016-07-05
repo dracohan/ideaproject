@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c315f84-996b-4446-9da2-0a71265ed453" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mianjing/d20160704/refelection.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/mianjing/IncDecThread.java" afterPath="$PROJECT_DIR$/src/mianjing/d20160703/IncDecThread.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/mianjing/IncDecThread2.java" afterPath="$PROJECT_DIR$/src/mianjing/d20160703/IncDecThread2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/mianjing/PrimitiveTypeTest.java" afterPath="$PROJECT_DIR$/src/mianjing/d20160703/PrimitiveTypeTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/mianjing/RefTest.java" afterPath="$PROJECT_DIR$/src/mianjing/d20160703/RefTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/mianjing/SleepWaitDiff.java" afterPath="$PROJECT_DIR$/src/mianjing/d20160703/SleepWaitDiff.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/mianjing/switchTest.java" afterPath="$PROJECT_DIR$/src/mianjing/d20160703/switchTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinkingInJava/src/c04/Garbage.java" afterPath="$PROJECT_DIR$/../ThinkingInJava/src/c04/Garbage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinkingInJava/src/c04/OrderOfInitialization.java" afterPath="$PROJECT_DIR$/../ThinkingInJava/src/c04/OrderOfInitialization.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HeadFirstDesignPatterns/src/Observer/TEXT" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HeadFirstDesignPatterns/src/Strategy/TEXT" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HeadFirstDesignPatterns/src/Observer/observers/CurrentConditionsDisply.java" afterPath="$PROJECT_DIR$/../HeadFirstDesignPatterns/src/Observer/observers/CurrentConditionsDisply.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mianjing/d20160704/refelection.java" afterPath="$PROJECT_DIR$/src/mianjing/d20160704/refelection.java" />
     </list>
     <ignored path="oschina.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -99,8 +94,8 @@
       <file leaf-file-name="refelection.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mianjing/d20160704/refelection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5343915">
-              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.72839504">
+              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
               <folding>
                 <element signature="e#434#435#0" expanded="true" />
                 <element signature="e#482#483#0" expanded="true" />
@@ -108,7 +103,6 @@
                 <element signature="e#552#553#0" expanded="true" />
                 <element signature="e#576#577#0" expanded="true" />
                 <element signature="e#617#618#0" expanded="true" />
-                <element signature="e#643#644#0" expanded="true" />
                 <element signature="e#687#688#0" expanded="true" />
                 <element signature="e#711#712#0" expanded="true" />
                 <element signature="e#753#754#0" expanded="true" />
@@ -385,7 +379,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HeadFirstDesignPatterns" />
   </component>
   <component name="RunManager" selected="Application.refelection">
     <configuration default="false" name="PrimitiveTypeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -788,7 +782,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-9" width="1864" height="1098" extended-state="0" />
+    <frame x="65" y="-9" width="1864" height="1098" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1253,8 +1247,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mianjing/d20160704/refelection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5343915">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.72839504">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
           <folding>
             <element signature="e#434#435#0" expanded="true" />
             <element signature="e#482#483#0" expanded="true" />
@@ -1262,7 +1256,6 @@
             <element signature="e#552#553#0" expanded="true" />
             <element signature="e#576#577#0" expanded="true" />
             <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
             <element signature="e#687#688#0" expanded="true" />
             <element signature="e#711#712#0" expanded="true" />
             <element signature="e#753#754#0" expanded="true" />

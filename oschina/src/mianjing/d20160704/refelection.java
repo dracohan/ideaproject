@@ -54,7 +54,8 @@ public class refelection {
 			System.out.println(constructor);
 
 		Method meth = m.getClass().getDeclaredMethod("func3");
+		//如果不设置，就会抛出IllegalAccessException异常
 		meth.setAccessible(true);
-		meth.invoke(null);
+		meth.invoke(m);
 	}
 }

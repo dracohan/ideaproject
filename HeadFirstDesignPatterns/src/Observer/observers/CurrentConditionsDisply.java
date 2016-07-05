@@ -1,5 +1,4 @@
 package Observer.Observers;
-
 import Observer.Subject.Subject;
 
 
