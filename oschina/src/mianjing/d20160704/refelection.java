@@ -26,7 +26,6 @@ class MyClass{
 		System.out.println("Constructor with int arg");
 	}
 
-
 	public void func1(){
 		System.out.println("publicFunc()");
 	};
