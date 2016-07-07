@@ -3,7 +3,7 @@ package master.designpatterns.command.remoteWL;
 //
 // This is the invoker
 //
-public class RemoteControl {
+public class  RemoteControl {
 	Command[] onCommands;
 	Command[] offCommands;
  
