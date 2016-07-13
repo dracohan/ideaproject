@@ -1,8 +1,8 @@
-package master.designpatterns.templatemethod.barista;
+package TemplateMethod;
 
-import java.io.*;
-import java.text.NumberFormat;
-import java.text.ParseException;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class TeaWithHook extends CaffeineBeverageWithHook {
  
@@ -31,23 +31,12 @@ public class TeaWithHook extends CaffeineBeverageWithHook {
 
 		System.out.print("Would you like lemon with your tea (y/n)? ");
 
-		//BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-
+		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 		try {
-
-		InputStream in = System.in;
-		InputStreamReader charsIn = new InputStreamReader(in);
-		BufferedReader bufferedReader = new BufferedReader( charsIn);
-		String line = bufferedReader.readLine();
-		//int i = NumberFormat.getInstance().parse( line ).intValue();
-		answer = line;
-
-
-			//answer = in.readLine();
+			answer = in.readLine();
 		} catch (IOException ioe) {
 			System.err.println("IO error trying to read your answer");
 		}
-
 		if (answer == null) {
 			return "no";
 		}
